@@ -1,0 +1,10 @@
+{
+    "example_input": {
+        "prompt": "colorful, 1girl, high angle, software developer protagonist, hacker, ((computer screen)), matrix, ((keyboard)), glow, light particles, wallpaper, chromatic aberration",
+        "seed": 42
+    },
+    "example_output": {
+        "output": "<base 64 image data>"
+    },
+    "version": "1"
+}
