@@ -14,9 +14,9 @@ You can fork this repository and deploy it on Banana as is, or customize it base
 
 ## Deploying on Banana.dev
 
-1. Fork this repository to your own Github account.
+1. [Fork this](https://github.com/bananaml/demo-sd-hf-safetensors/fork) repository to your own Github account.
 2. Connect your Github account on Banana.
-3. Create a new model on Banana from the forked Github repository.
+3. [Create a new model](https://app.banana.dev/deploy) on Banana from the forked Github repository.
 
 ## Running after deploying
 
