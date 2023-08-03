@@ -6,5 +6,39 @@
     "example_output": {
         "output": "<base 64 image data>"
     },
-    "version": "1"
+    "version": "1",
+    "inputs": [
+		{
+			"name": "prompt",
+			"type": "string",
+			"required": true,
+			"max": 320,
+			"description": "The prompt to use for image generation."
+		},
+		{
+			"name": "seed",
+			"type": "number",
+			"required": false,
+			"description": "The seed to use for predictable image results."
+		}
+	],
+    "output": {
+        "output": {
+            "type": "image",
+            "source": "base64",
+            "description": "The generated image.",
+			"path": "output"
+        }
+    },
+	"examples": [
+		{
+			"inputs": {
+				"prompt": "colorful, 1girl, high angle, software developer protagonist, hacker, ((computer screen)), matrix, ((keyboard)), glow, light particles, wallpaper, chromatic aberration",
+                "seed": 42
+			},
+			"output": {
+				"output": "<base 64 image data>"
+			}
+		}
+	]
 }
